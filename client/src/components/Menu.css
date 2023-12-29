@@ -1,0 +1,222 @@
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-column {
+    margin: 0 10px;
+}
+
+.menu-section {
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    /* Adjust this value as per your preference */
+    margin: 12px;
+    padding: 12px;
+    border-radius: 25px;
+    /* box-shadow: 0px 8px 1px rgba(255, 145, 0,0.7); */
+    box-shadow: 0px 8px 15px rgba(255, 145, 0, 0.2);
+    outline: none;
+    z-index: 99;
+    background-color: white;
+}
+.top-btn-admin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 15px rgba(255, 145, 0, 0.2);
+    outline: none;
+    z-index: 99;
+    background-color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.daj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-icon{
+    cursor: pointer;
+}
+
+.main-div-admin{
+    background-color: #cdc9c9;
+    margin-top: -22px;
+    min-height: 100vh;
+}
+
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.button-add-sub{
+    background-color: rgba(243, 166, 25 ,0.5);
+    color: black;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    outline: none;
+}
+
+.order-summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    outline: none;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    /* Adjust this value as per your preference */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    /* box-shadow: 0px 1px 12px rgba(255, 149, 0,0.6); */
+    box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.button-big-rmv{
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    padding: 5px;
+    outline: none;
+}
+
+.clr-txt-s{
+    color: rgb(58, 246, 58);
+    text-shadow: 1px 3px 10px rgba(58, 246, 58, 0.7);
+}
+.clr-txt-f{
+    color: rgb(248, 16, 16);
+    text-shadow: 1px 3px 10px rgba(248, 2, 2, 0.7);
+}
+
+/* Add any other styles you need */
+
+
+
+.order-btn {
+    outline: none;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    outline: none;
+    border-bottom: 5px solid black;
+    transition: transform 0.2s ease; /* Add a smooth transition for the transform property */
+}
+
+.order-btn:active {
+  transform: scale(0.8); /* Scale down to 90% of the original size when the button is pressed */
+}
+
+.dishes-container {
+    border: none;
+    box-shadow: 20px;
+}
+.top-head{
+    background-color: rgb(173, 173, 173);
+    font-size: 1em;
+    margin-top: 0px;
+    outline: none;
+}
+.txt-menu1{
+    font-family: 'Playfair Display', sans-serif;
+}
+.txt-menu2{
+   font-family: 'EB Garamond', sans-serif;
+   font-weight: bold;
+}
+.txt-menu3{
+    font-family: 'Stardos Stencil', sans-serif;
+    font-weight: bold;
+}
+.txt-menu4{
+    font-family: 'Domine', serif;
+    font-weight: bold;
+}
+
+.menu-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.head-btn {
+    background-color: rgb(209, 129, 0);
+    border: none;
+    outline: none;
+    box-shadow: 3px 0px 14px rgba(0, 0, 0, 0.3);
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: white;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.head-btn.active {
+    background-color: rgb(255, 149, 0); /* Set the background color for the active button */
+    color: #000000;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.head-btn:active,
+.head-btn:focus {
+    outline: none;
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight on iOS */
+}
+
+
+
+
+.table-admin{
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin: auto;
+    padding: 30px;
+    background-color: orange;
+}
+
+.br-th{
+    border-bottom: 5px solid orange;
+}
+
+.br-td{
+    border-right: 5px solid black;
+    border-bottom: 5px solid grey;
+    border-top: 5px solid grey;
+}
+.br-td-lt{
+    border-left: 5px solid black;
+}
+.txt-calorie{
+    font-size: 8px;
+}
